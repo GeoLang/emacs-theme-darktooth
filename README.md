@@ -69,6 +69,7 @@ M-x package-install darktooth-theme
 - smartparens
 - smerge
 - swoop
+- tab-bar
 - term / ansi-colors
 - tldr
 - vline

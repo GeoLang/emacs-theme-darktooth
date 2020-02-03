@@ -195,6 +195,11 @@
   (tldr-title                                (:foreground darktooth-bright_red :bold t :height 1.2))
   (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
 
+  ;; MODE SUPPORT: tab-bar
+  (tab-bar                                   (:foreground darktooth-light0 :background darktooth-dark1 :box nil))
+  (tab-bar-tab                               (:foreground darktooth-light0 :background darktooth-dark0 :box darktooth-dark0))
+  (tab-bar-tab-inactive                      (:foreground darktooth-light1 :background darktooth-dark1))
+
   ;; MODE SUPPORT: whitespace-mode
   (whitespace-space                          (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
